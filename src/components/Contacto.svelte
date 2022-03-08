@@ -1,5 +1,5 @@
 <div class="container">
-	<form id="contact" action="" method="post">
+	<form class="contact" action="" method="post">
 		<h3>Contactanos</h3>
 
 		<fieldset>
@@ -30,32 +30,25 @@
 		position: relative;
 	}
 
-	#contact input[type='text'],
-	#contact input[type='email'],
-	#contact input[type='tel'],
-	#contact input[type='url'],
-	#contact textarea,
-	#contact button[type='submit'] {
+	.contact input[type='text'],
+	.contact input[type='email'],
+	.contact input[type='tel'],
+	.contact textarea,
+	.contact button[type='submit'] {
 		font: 400 12px/16px 'Open Sans', Helvetica, Arial, sans-serif;
 	}
 
-	#contact {
+	.contact {
 		background: #f9f9f9;
 		padding: 25px;
 		margin: 50px 0;
 	}
 
-	#contact h3 {
-		color: #000;
+	.contact h3 {
+		color: #f96;
 		display: block;
 		font-size: 30px;
 		font-weight: 400;
-	}
-
-	#contact h4 {
-		margin: 5px 0 15px;
-		display: block;
-		font-size: 13px;
 	}
 
 	fieldset {
@@ -66,11 +59,10 @@
 		width: 100%;
 	}
 
-	#contact input[type='text'],
-	#contact input[type='email'],
-	#contact input[type='tel'],
-	#contact input[type='url'],
-	#contact textarea {
+	.contact input[type='text'],
+	.contact input[type='email'],
+	.contact input[type='tel'],
+	.contact textarea {
 		width: 100%;
 		border: 1px solid #ccc;
 		background: #fff;
@@ -78,23 +70,23 @@
 		padding: 10px;
 	}
 
-	#contact input[type='text']:hover,
-	#contact input[type='email']:hover,
-	#contact input[type='tel']:hover,
-	#contact textarea:hover {
+	.contact input[type='text']:hover,
+	.contact input[type='email']:hover,
+	.contact input[type='tel']:hover,
+	.contact textarea:hover {
 		-webkit-transition: border-color 0.3s ease-in-out;
 		-moz-transition: border-color 0.3s ease-in-out;
 		transition: border-color 0.3s ease-in-out;
 		border: 1px solid #aaa;
 	}
 
-	#contact textarea {
+	.contact textarea {
 		height: 100px;
 		max-width: 100%;
 		resize: none;
 	}
 
-	#contact button[type='submit'] {
+	.contact button[type='submit'] {
 		cursor: pointer;
 		width: 100%;
 		border: none;
@@ -105,19 +97,19 @@
 		font-size: 15px;
 	}
 
-	#contact button[type='submit']:hover {
+	.contact button[type='submit']:hover {
 		background: #09c;
 		-webkit-transition: background 0.3s ease-in-out;
 		-moz-transition: background 0.3s ease-in-out;
 		transition: background-color 0.3s ease-in-out;
 	}
 
-	#contact button[type='submit']:active {
+	.contact button[type='submit']:active {
 		box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 	}
 
-	#contact input:focus,
-	#contact textarea:focus {
+	.contact input:focus,
+	.contact textarea:focus {
 		outline: 0;
 		border: 1px solid #999;
 	}
