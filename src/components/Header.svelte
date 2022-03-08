@@ -20,7 +20,7 @@
 
 <style>
 	.Header {
-		background-image: url(https://res.cloudinary.com/daadki0ie/image/upload/v1641425505/Code-min_betbxc.jpg);
+		background-image: url(code.jpg);
 		background-size: cover;
 		height: 45rem;
 		background-position: center center;
