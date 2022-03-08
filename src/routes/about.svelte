@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>Acerca de</title>
+</svelte:head>
 <main class="contenedor">
 	<h3>Sobre Nosotros</h3>
 	<div class="about">

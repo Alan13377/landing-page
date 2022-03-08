@@ -2,6 +2,9 @@
 	import Post from '../components/Post.svelte';
 </script>
 
+<svelte:head>
+	<title>Blog</title>
+</svelte:head>
 <main class="container">
 	<Post />
 	<Post />

@@ -3,6 +3,9 @@
 	import Contacto from '../components/Contacto.svelte';
 </script>
 
+<svelte:head>
+	<title>Inicio</title>
+</svelte:head>
 <main class="contenedor">
 	<h1>Ultimos Post</h1>
 	<Post />
