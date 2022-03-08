@@ -3,16 +3,16 @@
 		<h3>Contactanos</h3>
 
 		<fieldset>
-			<input placeholder="Nombre" type="text" tabindex="1" required autofocus />
+			<input placeholder="Nombre" type="text" required />
 		</fieldset>
 		<fieldset>
-			<input placeholder="Email" type="email" tabindex="2" required />
+			<input placeholder="Email" type="email" required />
 		</fieldset>
 		<fieldset>
-			<input placeholder="Numero Telefono" type="tel" tabindex="3" required />
+			<input placeholder="Numero Telefono" type="tel" required />
 		</fieldset>
 		<fieldset>
-			<textarea placeholder="Escribe tu mensaje...." tabindex="5" required />
+			<textarea placeholder="Escribe tu mensaje...." required />
 		</fieldset>
 		<fieldset>
 			<button name="submit" type="submit" id="contact-submit" data-submit="...Sending"
